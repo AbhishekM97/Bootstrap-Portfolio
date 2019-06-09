@@ -1,12 +1,47 @@
-#name{
+body{
+    margin-bottom: 30px;
+    min-height: 500px;
+    background-image: url("C:\Users\Abhishek Maan\Documents\George Washington University_Cbootcamp\Homework\Bootstrap-Portfolio\hypnotize.png");
+}
+.row h1{
     text-align: center;
 }
 
 #MyImage{
-    border:5px solid darkcyan;
+    padding-left: 0px;
 }
 
 footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     text-align: center;
     background-color: darkslategray;
+}
+
+.container{
+    margin-top: 30px;
+    border: 3px solid darkslategrey;
+    max-height: 9001px;
+    background-color: white;
+}
+.link{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 200px;
+    border: 4px solid darkslategrey;
+    color: white;
+    position: absolute;
+    background-color: darkslategray;
+    bottom: 8px;
+}
+.img-fluid{
+    border: 4px solid darkslategrey;
+}
+.img{
+    padding-left: 160;
+    padding-right: auto;
+    margin: 4px;
 }
