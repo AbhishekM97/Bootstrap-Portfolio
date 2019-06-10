@@ -1,7 +1,7 @@
 body{
     margin-bottom: 30px;
     min-height: 500px;
-    background-image: url("C:\Users\Abhishek Maan\Documents\George Washington University_Cbootcamp\Homework\Bootstrap-Portfolio\hypnotize.png");
+    background-image: url("images\hypnotize.png");
 }
 .row h1{
     text-align: center;
@@ -23,7 +23,7 @@ footer{
 .container{
     margin-top: 30px;
     border: 3px solid darkslategrey;
-    max-height: 9001px;
+    max-height: 10000px;
     background-color: white;
 }
 .link{
